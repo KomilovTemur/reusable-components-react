@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-side {
+  width: 25vw;
+  height: 100vh;
+  border-right: 3px dashed #941b0c;
+  display: grid;
+  place-items: center;
+}
+
+.left-side div > h2 {
+  padding-top: 20px;
+}
+
+.main-side {
+  width: 75vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 10px 20px;
+  min-width: 250px;
+  border: none;
+  margin: 5px auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn-yellow {
+  background: #ffc300;
+  color: #fff;
+  box-shadow: 0 1px 3px 2px #ffc300;
+}
+
+.btn-red {
+  background: #941b0c;
+  color: #fff;
+  box-shadow: 0 1px 3px 2px #941b0c;
+}
+
+.btn-green {
+  background: #23856d;
+  color: #fff;
+  box-shadow: 0 1px 3px 2px #23856d;
+}
+
+.btn-blue {
+  background: #274c77;
+  color: #fff;
+  box-shadow: 0 1px 3px 2px #274c77;
+}
+
+.text-xl {
+  font-size: 18px;
+}
+
+.text-2xl {
+  font-size: 25px;
+}
+
+.text-3xl {
+  font-size: 30px;
+}
+
+.text-4xl {
+  font-size: 40px;
+}
