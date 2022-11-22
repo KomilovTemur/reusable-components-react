@@ -1,4 +1,6 @@
 import Buttons from "./components/Buttons";
+import github from "./assets/github.png"
+import telegram from "./assets/telegram.png"
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
           <p>2xl: 25px</p>
           <p>3xl: 30px</p>
           <p>4xl: 40px</p>
+        </div>
+        <div className="contacts">
+          <a target="_blank" href="https://github.com/KomilovTemur/"><img src={github} alt="github" /></a>
+          <a target="_blank" href="https://t.me/tim_coder"><img src={telegram} alt="telegram" /></a>
         </div>
       </div>
       <div className="main-side">
